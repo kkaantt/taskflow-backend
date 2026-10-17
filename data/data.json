@@ -1,0 +1,81 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Ahmet Yılmaz",
+      "department": "Yazılım"
+    },
+    {
+      "id": 2,
+      "name": "Ayşe Demir",
+      "department": "Tasarım"
+    },
+    {
+      "id": 3,
+      "name": "Mehmet Kaya",
+      "department": "Test"
+    },
+    {
+      "id": 4,
+      "name": "Zeynep Çelik",
+      "department": "Yönetim"
+    },
+    {
+      "id": 5,
+      "name": "Can Arslan",
+      "department": "DevOps"
+    },
+    {
+      "id": 6,
+      "name": "Elif Şahin",
+      "department": "Frontend"
+    },
+    {
+      "id": 7,
+      "name": "Burak Yıldız",
+      "department": "Backend"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Güncellenmiş Görev Başlığı",
+      "description": "Swagger veya Postman ile doküman hazırlanacak.",
+      "priority": "high",
+      "status": "completed",
+      "assignee": "Ahmet Yılmaz"
+    },
+    {
+      "id": 3,
+      "title": "Birim Testleri (Unit Tests)",
+      "description": "Servis katmanı için Jest testleri yazılacak.",
+      "priority": "high",
+      "status": "pending",
+      "assignee": "Mehmet Kaya"
+    },
+    {
+      "id": 4,
+      "title": "Sunucu Konfigürasyonu",
+      "description": "Docker container optimizasyonları yapılacak.",
+      "priority": "low",
+      "status": "pending",
+      "assignee": "Can Arslan"
+    },
+    {
+      "id": 5,
+      "title": "Login Sayfası Entegrasyonu",
+      "description": "React ile giriş ekranı kodlanacak.",
+      "priority": "high",
+      "status": "completed",
+      "assignee": "Elif Şahin"
+    },
+    {
+      "id": 6,
+      "title": "Yeni Görev Başlığı",
+      "description": "Görevin detaylı açıklaması buraya yazılacak.",
+      "priority": "high",
+      "status": "pending",
+      "assignee": "Ahmet Yılmaz"
+    }
+  ]
+}
