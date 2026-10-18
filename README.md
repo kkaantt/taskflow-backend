@@ -2,7 +2,7 @@
 
 Bu proje, Node.js ve Express.js kullanılarak geliştirilmiş RESTful tabanlı bir Görev ve Proje Yönetim Sistemi API'sidir. Şirket içi çalışanların ve görevlerin takibini, yönetimini ve CRUD operasyonlarını gerçekleştirmeyi sağlar.
 
-## 🚀 Projenin Amacı ve Özellikleri
+## Projenin Amacı ve Özellikleri
 - Görev oluşturma, listeleme, detay görüntüleme, güncelleme ve silme (CRUD) operasyonları
 - Modüler routing yapısı
 - Gelen HTTP isteklerini (Method, Endpoint, Zaman Damgası) konsola kaydeden temel Logger middleware'i
@@ -10,7 +10,7 @@ Bu proje, Node.js ve Express.js kullanılarak geliştirilmiş RESTful tabanlı b
 
 ---
 
-## 🛠️ Kurulum ve Çalıştırma Adımları
+## Kurulum ve Çalıştırma Adımları
 
 Projeyi kendi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
 
@@ -33,7 +33,7 @@ Projeyi kendi yerel bilgisayarınızda çalıştırmak için aşağıdaki adıml
 
 ---
 
-## 📌 API Endpoints (Uç Noktaları)
+## API Endpoints (Uç Noktaları)
 
 ### Görevler (Tasks)
 - **Tüm Görevleri Listele:** `GET /tasks`
@@ -47,5 +47,5 @@ Projeyi kendi yerel bilgisayarınızda çalıştırmak için aşağıdaki adıml
 
 ---
 
-## 🧪 Test Süreci
+## Test Süreci
 Projedeki tüm CRUD endpoint'leri **Postman** üzerinden test edilmiştir. İstek atarken `http://localhost:3000/tasks` adresi kullanılmaktadır.
